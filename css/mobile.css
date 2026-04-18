@@ -1,0 +1,411 @@
+@media screen and (max-width:600px)
+{
+    section 
+    {
+        padding: 10px 0px;
+    }
+
+    /* HEADER -------------------- */
+
+    #conteudoHeader
+    {
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    #conteudoHeader img
+    {
+        width: 155px;
+    }
+
+    #estiloLista
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #estiloLista li
+    {
+        font-size: 21px;
+    }
+
+    #colunamini > span {
+        font-size: 25px;
+    }
+
+    #colunamini h1 {
+        font-size: 16px;
+    }
+
+    /* BANNER --------------------------- */
+
+    .titleBanner > h1 
+    {
+        font-size: 3.1rem;
+    }
+
+    .titleBanner > p
+    {
+        font-size: 19px;
+    }
+
+    /* SECTION HISTÓRIA ---------------------- */
+
+    #conteudoHistória
+    {
+        flex-direction: column-reverse;
+    }
+
+    .textHistoria
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    #h1Size
+    {
+        text-align: center;
+    }
+
+    .gradeOldfotos
+    {
+        width: 100%;
+    }
+
+    .gradeOldfotos > img
+    {
+        width: 48%;
+    }
+
+    /* SECTION MELHORES PRAIAS --------------*/
+
+    .conteudoPraias
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .containerPraia
+    {
+        width: 100%;
+    }
+
+    /* SECTION PONTOS TURÍSTICOS ------------------- */
+
+    .preferencia
+    {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .buttonTurismo
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .boxTurismo
+    {
+        width: 100%;
+    }
+
+    /* SECTION RESTAURANTES -------------------- */
+
+    #conteudoRestaurantes
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .boxFiltros
+    {
+        width: 85%;
+    }
+
+    .boxFiltros p 
+    {
+        font-size: 13px;
+    }
+
+    #pFontsize
+    {
+        font-size: 16px;
+    }
+
+    .arearestaurantes
+    {
+        width: 100%;
+    }
+
+    .boxrestaurante
+    {
+        flex-direction: column;
+    }
+
+    .boxrestaurante h1
+    {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .positionimg > img {
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .linerestaurante
+    {
+        flex-direction: column;
+    }
+
+    .avaliaçao span
+    {
+        font-size: 17px;
+    }
+
+    .lineopn p 
+    {
+        font-size: 13px;
+    }
+
+    .lineopn img 
+    {
+        width: 29px;
+    }
+
+    /* SECTION HOTEIS ------------------------ */
+
+    #conteudoHoteis
+    {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .boxhotel
+    {
+        width: 100%;
+    }
+
+    .listhotel li
+    {
+        font-size: 15px;
+    }
+
+    .infoHotel 
+    {
+        text-align: center;
+    }
+
+    /* FOOTER ---------------- */
+
+    #conteudoFooter
+    {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+    .columnFooter
+    {
+        width: 100%;
+    }
+
+    .listaFooter 
+    {
+        gap: 5px;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width:1024px)
+{
+    /* HEADER ----------------------------- */
+
+    #conteudoHeader 
+    {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    #colunamini > span
+    {
+        font-size: 28px;
+    }
+
+    li
+    {
+        font-size: 23px;
+    }
+
+    #colunamini h1 
+    {
+        font-size: 18px;
+    }
+
+    /* SECTION HISTÓRIA ---------------------------- */
+
+    #conteudoHistória
+    {
+        flex-direction: column-reverse;
+    }
+
+    .textHistoria
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gradeOldfotos
+    {
+        width: 100%;
+    }
+
+    #h1Size
+    {
+        text-align: center;
+    }
+
+    /* SECTION PRAIAS ------------------------------- */
+
+    .conteudoPraias
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .containerPraia
+    {
+        width: 47%;
+    }
+
+    /* SECTION PONTOS TURÍSTICOS ------------------ */
+
+    .buttonTurismo
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .boxTurismo
+    {
+        width: 48%;
+    }
+
+    /* SECTIOM MELHORES RESTAURANTES ------------------- */
+
+    #conteudoRestaurantes
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .boxFiltros
+    {
+        width: 90%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .boxFiltros > div
+    {
+        width: 32%;
+        text-align: center;
+    }
+
+    .boxFiltros h1 
+    {
+        text-align: center;
+        width: 100%;
+    }
+
+    .arearestaurantes
+    {
+        width: 100%;
+    }
+
+    .avaliaçao > p
+    {
+        font-size: 14px;
+    }
+
+    .avaliaçao > span
+    {
+        font-size: 18px;
+    }
+
+    .lineopn img 
+    {
+        width: 30px;
+    }
+
+    /* SECTION HOTÉIS ------------------------ */
+
+    #conteudoHoteis
+    {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 15px;
+    }
+
+    .boxhotel
+    {
+        justify-content: center;
+        width: 55%;
+    }
+
+    .boxhotel img
+    {
+        width: 100%;
+    }
+
+    .infoHotel 
+    {
+        text-align: center;
+    }
+
+    .infoHotel p
+    {
+        font-size: 17px;
+    }
+
+    .listhotel li
+    {
+        font-size: 17px;
+    }
+
+    .preço 
+    {
+        text-align: end;
+    }
+
+    .flexhotel
+    {
+        justify-content: space-between;
+        width: 100%;
+        padding: 0px 10px;
+    }
+
+    /* FOOTER ----------------------- */
+
+    #conteudoFooter
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .columnFooter
+    {
+        width: 48%;
+    }
+
+}

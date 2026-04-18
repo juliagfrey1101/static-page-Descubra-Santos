@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playpen+Sans:wght@100..800&display=swap');
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body 
+{
+    margin: 0;
+}
+
+.largura
+{
+    width: 85%;
+    margin: auto;
+    padding: 15px;
+    max-width: 1600px;
+}
+
+h1
+{
+    margin:0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-size: 29px;
+    text-align: center;
+}
+
+p
+{
+    font-size: 15px;
+    font-family: "Playpen Sans", cursive;
+}
+
+h2
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#h1Size
+{
+    font-size: 29px;
+    text-align: start;
+}
+
+li
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+section
+{
+    padding: 20px 0px;
+}
+
+/* HEADER -------------------------------- */
+
+#conteudoHeader
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuFlex
+{
+    display: flex;
+    align-items: center;
+    gap:4px;
+}
+
+#conteudoHeader > img
+{
+    width: 110px;
+}
+
+.infoHeader
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    row-gap: 10px;
+}
+
+#estiloLista
+{
+    list-style: none;
+    display: flex;
+    column-gap: 25px;
+    margin: 0;
+}
+
+#colunamini
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#colunamini h1
+{
+    font-size: 20px;
+}
+
+.gapColunamini
+{
+    display: flex;
+    gap: 25px;
+}
+
+#colunamini > span { font-size: 31px; }
+.menuFlex > span { font-size: 31px; }
+#fontsize { font-size: 22px;}
+
+/* BANNER ---------------------------------- */
+
+.bg
+{
+    /*background-color: rgb(76, 109, 81);*/
+    background-image: url(../images/bgbanner.jpg);
+    background-size: cover;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+#conteudoBanner
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.titleBanner
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.titleBanner > h1
+{
+   font-size: 3.7rem;
+   color: #ffffff;
+   font-family: "Cormorant Garamond", serif;
+   font-weight: 700;
+}
+
+.titleBanner > p
+{
+    font-family: "Dancing Script", cursive;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 900;
+    margin: 20px 0px 30px 0px;
+}
+
+.botaoBanner
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
+    text-decoration: none;
+    color:#000000; 
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* SECTION 1 < HISTÓRIA DE SANTOS> ------------- */
+
+#conteudoHistória
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gradeOldfotos
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 55%;
+}
+
+.gradeOldfotos > img
+{
+    width: 49%;
+}
+
+.textHistoria
+{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textHistoria > div > h1
+{
+    color:rgb(78, 78, 77);
+}
+
+/* SECTION PRAIAS ------------------- */
+
+#bgcolor
+{
+    /* background-color: rgb(255, 253, 156); */
+    background-color: rgb(8 7 21);
+}
+
+#conheçapraias
+{
+    text-align: center;
+    /* color: #313131 */
+    color: #ffffff;
+}
+
+.conteudoPraias
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerPraia
+{
+    /* background-color: #c0b7fc; */
+    background-color: #e2e2e2;
+    border-radius: 7px;
+    padding: 15px;
+    width: 24%;
+    /* color: #313131; */
+    color: rgb(8 7 21);
+}
+
+.containerPraia > img
+{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.infoPraia
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(8 7 21);
+}
+
+.flexPraia > h2
+{
+    font-size: 13px;
+}
+
+.flexPraia
+{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.titlePraia > h1
+{
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.textPraia
+{
+    text-align: center;
+}
+
+.textPraia > p
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 14px;
+}
+
+/* SECTION ATRAÇÕES ------------------------ */
+
+#conteudoAtraçoes
+{
+    text-align: center;
+}
+
+#conteudoAtraçoes > h2
+{
+    margin: 15px 0px;
+}
+
+.buttonTurismo
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.preferencia
+{
+    width: fit-content;
+    text-decoration: none;
+    color:#000000;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(128, 126, 126);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.preferencia > span
+{
+    font-size: 19px;
+}
+
+.gradepontosturisticos
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.boxTurismo > img
+{
+    width: 100%;
+}
+
+.boxTurismo
+{
+    position: relative;
+    width: 24%;
+}
+
+.infoPlace
+{
+    width: fit-content;
+    color:rgb(255, 255, 255);
+    padding: 6px;
+    border-radius: 7px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.infoPlace > p
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#color1 { background-color: rgb(95, 4, 4);}
+#color2 { background-color: rgb(255, 109, 109);}
+#color3 { background-color: rgb(47, 131, 45); }
+#color4 { background-color: rgb(104, 93, 70);}
+#color5 { background-color: rgb(67, 67, 189);}
+#color6 { background-color: rgb(255, 139, 43); }
+#color7 { background-color: red;}
+#color8 { background-color: rgb(75, 207, 168);}
+
+.buttonVejamais
+{
+    width: fit-content;
+    padding: 8px;
+    margin: auto;
+    text-decoration: none;
+    border: 1px solid black;
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* SECTION RESTAURANTES --------------------- */
+
+#conteudoRestaurantes
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.boxFiltros
+{
+    width: 25%;
+    background-color: rgb(19, 19, 19);
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 10px;
+    height: fit-content;
+    color: #ffffff;
+}
+
+.boxFiltros p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+
+#pFontsize
+{
+    font-size: 18px;
+}
+
+.subtitulofiltro
+{
+    display: flex;
+    gap:5px;
+    align-items: center;
+    color: #ffffff;
+}
+
+.subtitulofiltro span
+{
+    color: #ffffff;
+}
+
+
+.arearestaurantes
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 72%;
+}
+
+.boxrestaurante
+{
+    display: flex;
+    background-color: rgb(220, 255, 255);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.columnRestaurante
+{
+    padding: 15px;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.boxrestaurante h1
+{
+    font-size: 27px;
+    text-align: start;
+}
+
+.boxrestaurante p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.linerestaurante
+{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.avaliaçao
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.lineinfo
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.opiniao
+{
+   display: flex;
+   flex-direction: column;
+   row-gap: 8px;
+   margin-top: 11px;
+}
+
+.lineopn 
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.lineopn p
+{
+    font-size: 12px;
+}
+
+.lineopn img
+{
+    width: 26px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.favorite
+{
+    padding: 3px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    position: absolute;
+    right: 5px;
+    top:5px;
+    display: flex;
+    align-items: center;
+}
+
+a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.positionimg
+{
+    position: relative;
+    display: flex;
+}
+
+.positionimg > img
+{
+    width: 230px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/* SECTION HOSPEDAGEM ---------------------- */
+
+#conteudoHoteis
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.color
+{
+    color: #ffffff;
+    text-align: center;
+    margin-top:5px;
+}
+
+.boxhotel
+{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    width: 31%;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.boxhotel img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.boxhotel p
+{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexhotel
+{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.infoHotel
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoHotel p 
+{
+    font-size: 14px;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.listhotel li
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(97, 207, 83);
+    font-size: 18px;
+    list-style: none;
+
+}
+
+.lineHotel
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.lineHotel > span
+{
+    font-size: 15px;
+    margin-right: 5px;
+    color: rgb(97, 207, 83);;
+}
+
+.listhotel
+{
+    margin:0;
+}
+
+.sobreHotel
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.preço
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+.diariaHotel
+{
+    font-size: 21px;
+    font-weight: bold;
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonHotel
+{
+    display: flex;
+    background-color: blue;
+    width: fit-content;
+    margin: auto;
+    justify-content: center;
+    color: #ffffff;
+    padding: 6px;
+    border-radius: 7px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FOOTER ------------------------------- */
+
+footer { background-color: #ece6e6;}
+
+#conteudoFooter
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.columnFooter p
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.columnFooter
+{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: center;
+    text-align: center;
+}
+
+.columnFooter > img
+{
+    width: 100px;
+}
+
+.redesSociais
+{
+    display: flex;
+    gap: 15px;
+}
+
+.redesSociais ion-icon
+{
+    font-size: 22px;
+}
+
+#colorFacebook { color: #3520f7;}
+#colorInstagram { color: #b855d6;}
+#colorLinkedin { color: #1a2a88;}
+#colortwt { color: #5e75f8;}
+
+.listaFooter li
+{
+    list-style: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.listaFooter
+{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.contatoFooter
+{
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.contatoFooter span
+{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
